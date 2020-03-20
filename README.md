@@ -32,6 +32,18 @@
 It's an easy, convenient and effortless implementation of PMS Injectable App. Pick My Solar application can only be delivered to `<pms-injectable>` HTML tag. To get the Pick My Solar application, add `<pms-injectable>` tag inside `<body>` wherever you want the application to appear. This tag will automatically adjust the `height` and `width` based on the container’s `height` and `width`. So it’s recommended to use this inside a `<div>` with specific `height` and `width`.
 >Note: Anything placed inside `<pms-injectable></pms-injectable>` will be ignored.
 
+## PMS Injectable Script URL
+
+The only script can render the entire PMS Injectable application to your website/app.
+
+> Script URL : https://codebase.pickmysolar.com/pms.js
+
+### Usage
+
+```html
+    <script src="https://codebase.pickmysolar.com/pms.js" pid="YOUR_PMS_TOKEN"></script>
+```
+
 ## Basic Code
 
 To get started with PMS Injectable App, you need to first add the base code. The base code snippet has your PMS token/pid as displayed below: 
@@ -161,7 +173,6 @@ This callback function can be used to set the project type on PMS Injectable App
 ##### Available keywords
   - 'solar'
   - 'battery'
-  - 'ev charger'
   >Note: Single project type should also be sent in array format.
 
 

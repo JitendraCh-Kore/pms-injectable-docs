@@ -229,3 +229,30 @@ functionToSetProjectType() {
        return ['solar', 'battery'];
 }
 ```
+
+
+
+
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+
+# Change logs
+
+### v2.1.0 - 03/13/2020
+- New callback function added for project type selection. [See Docs](/#projectType)
+
+
+### v2.0.9 - 02/15/2020
+- Stability improvements and various bug fixes.
+- Internet Explorer 11 compatibility fix.
+
+### v2.0.8 - 02/01/2020
+- Partner specific disclaimer added.
+- Various bug fixes.

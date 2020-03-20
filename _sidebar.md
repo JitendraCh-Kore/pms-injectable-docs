@@ -27,4 +27,4 @@
         - [Angular 2+ component](/#Angular-2-component)
         - [React component](/#React-component)
 
-- [Changelog](/#changelog)
+- [Changelog](/#Change-logs)

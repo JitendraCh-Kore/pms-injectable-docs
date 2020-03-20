@@ -1,6 +1,6 @@
 # Introduction
 
-> Pick My Solar works with a plug and play javascript snippet installed on your website. A standalone JS snippet and an HTML markup tag `<pms-injectable>` will integrate your website with Pick My Solar marketplace application.
+> Pick My Solar works with a plug and play JavaScript snippet. A standalone JavaScript snippet and an HTML markup tag `<pms-injectable>` will integrate your website with Pick My Solar marketplace application.
 
 
 <br/>
@@ -14,11 +14,11 @@
 
 # Requirements
 
--   Your PMS token.
+-   Your PMS token
 
--   Access to your website's code base.
+-   Access to your website's codebase
     
--   Basic knowledge of Javascript and HTML.
+-   Basic knowledge of Javascript and HTML
 
 <br/>
 
@@ -29,12 +29,12 @@
 <br/>
 
 # Implementation
-It's an easy, convenient and effortless implementation of PMS Injectable App. Pick My Solar application can only be delivered to `<pms-injectable>` HTML tag. To get the Pick My Solar application, add `<pms-injectable>` tag inside `<body>` wherever you want the application to appear. This tag will automatically adjust the `height` and `width` based on the container’s `height` and `width`. So it’s recommended to use this inside a `<div>` with specific `height` and `width`.
->Note: Anything placed inside `<pms-injectable></pms-injectable>` will be ignored.
+It's an easy, convenient and effortless implementation. Pick My Solar Application can only deliver to `<pms-injectable>` HTML tag. You need to add `<pms-injectable>` tag inside `<body>` wherever you want the application to appear. This tag will automatically adjust the `height` and `width` based on the container’s `height` and `width`. So it’s recommended to use this inside a `<div>` with specific `height` and `width`.
+>Note: Anything placed inside the `<pms-injectable></pms-injectable>` tag, will be ignored.
 
 ## PMS Injectable Script URL
 
-The only script can render the entire PMS Injectable application to your website/app.
+This script can render the entire PMS Injectable application to your website/app.
 
 > Script URL : https://codebase.pickmysolar.com/pms.js
 
@@ -46,7 +46,7 @@ The only script can render the entire PMS Injectable application to your website
 
 ## Basic Code
 
-To get started with PMS Injectable App, you need to first add the base code. The base code snippet has your PMS token/pid as displayed below: 
+To get started with PMS Injectable Application, you need to add the base code first. The base code snippet has your PMS token/pid as shown below: 
 ```
 <html>
   <head>
@@ -62,10 +62,10 @@ To get started with PMS Injectable App, you need to first add the base code. The
 </html>
 ```
 You need to replace `YOUR_PMS_TOKEN` with your token/key provided by Pick My Solar. 
->Note: If the given token/key is invalid then you will see an error in the browser's javascript console.
+>Note: If the given token/key is invalid, you will see an error in the browser's JavaScript console.
 
 ## Basic Integration Test
-For Testing & validation, open your browser javascript console. You will see the following in the console:
+For testing & validation, open your browser's JavaScript console. You will see the following messages:
 
 - On successful integration :
 
@@ -90,7 +90,7 @@ For Testing & validation, open your browser javascript console. You will see the
 
 # User Authentication
 ## Login Function
-In order to initiate the ‘logged-in user’ into Pick My Solar application, you need to set PMS parameters using `window._PMS.setParams()` function. You can call this function inside your native website's login function/method.
+To initiate the ‘logged-in user’ into Pick My Solar application, you need to set PMS parameters using `window._PMS.setParams()` function. You can call this function inside your native website's login function/method.
 ### Example:
 ```js
 yourLoginFunction() {
@@ -106,7 +106,7 @@ yourLoginFunction() {
 }
 ```
 >`yourLoginFunction()` is supposed to be login method/function in your native website/app.
->If user is logged by already active session (cookie) at Client/Partner application then PMS Injectable app will be expecting the parameters to be sent each time on CTA click. For all logged in user, We strongly recommend to set the parameters every time when injectable app access/trigger point or CTA get clicked in your website/app. 
+>If a user is logged by already active session (cookie) at Client/Partner application then PMS Injectable application will be expecting the parameters to be sent each time on CTA click. For all the logged in users, we strongly recommend to set the parameters every time when PMS Injectable Application accesses/triggers point or CTA buttons get clicked in your website/application. 
 ### Login Parameters
 The function `window._PMS.setParams()` needs the user data in a JSON format consisting of the user’s name, email, and password. The data model for the user’s information is given below:
 ```js
@@ -116,10 +116,10 @@ The function `window._PMS.setParams()` needs the user data in a JSON format cons
      password: string           //user's password
 }
 ```
-> Name, Email and Password are required elements, absence of any of them will throw an error.
+> Name, Email and Password are required elements.
 
 ## Logout Function
-In order to logout or wipe-out PMS Injectable app active session, call `window._PMS.flush()` function. You can call this function anywhere as per the requirement.
+To logout or wipe-out from PMS Injectable Application active session, call `window._PMS.flush()` function. You can call this function anywhere as per the requirement.
 
 <br/>
 
@@ -130,7 +130,7 @@ In order to logout or wipe-out PMS Injectable app active session, call `window._
 <br/>
 
 # Callback Functions
-PMS Injectable application has callbacks functions. You can attach your own functions with our callback mechanism in order to get data from Pick My Solar application. This is the only communication channel for your base code to communicate with Pick My Solar application. Any changes or updates to the params have to be triggered through callbacks only. All callback functions need to be registered on initialization of Pick My Solar application.
+PMS Injectable application has callback functions. You can attach your own functions with our PMS Injectable Application callback mechanism in order to get the data from the Pick My Solar application. This is the only communication channel for your base code to communicate with Pick My Solar application. Any changes or updates to the params have to be triggered through callbacks only. All callback functions need to be registered on the initialization of Pick My Solar application.
 ```js
 window._PMS.cbFunctions = {
       signUp: yourSignUpCatchFn,
@@ -139,7 +139,7 @@ window._PMS.cbFunctions = {
 ```
 ## Available Callbacks
 ### signUp
-This callback function can be used to get the information of user while signing up on PMS Injectable App. 
+This callback function can be used to get the information of the user while signing up on PMS Injectable Application. 
 >The attached function will be called with certain parameters, parallel to the PMS signup process.
 #### Parameters
 ```js
@@ -150,8 +150,8 @@ This callback function can be used to get the information of user while signing 
 }
 ```
 ### projectType
-This callback function can be used to set the project type on PMS Injectable App. 
->The attached function is supposed to return array of strings of required keywords. This function will always be used by PMS Injectable App to decide the project type.
+This callback function can be used to set the project type on PMS Injectable Application. 
+>The attached function is supposed to return an array of strings of required keywords. This function will always be used by PMS Injectable Application to decide the project type.
 #### Function Example 
 ```js
     function functionToSetProjectType() {

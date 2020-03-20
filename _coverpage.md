@@ -1,14 +1,14 @@
 ![logo](https://s3.amazonaws.com/solarassets/partner_assets/pkms_icon.png)
 
-# PMS-Injectable <small>2.2</small>
+# PMS Injectable Application <small>2.2</small>
 
-> A lightweight solar marketplace application.
+> A lightweight solar marketplace application
 
 - Simple and lightweight (chunked)
-- No statically built html files
-- To way communications
-- UX Configurable
-- Partner Specific
+- No statically built HTML files
+- Two-way communication
+- UX configurable
+- Partner specific
 
 [Demo](https://codebase2-prelive.pickmysolar.com/)
 [Get Started](/#introduction)

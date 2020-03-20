@@ -10,7 +10,6 @@
 - UX configurable
 - Partner specific
 
-[Demo](https://codebase2-prelive.pickmysolar.com/)
 [Get Started](/#introduction)
 
 

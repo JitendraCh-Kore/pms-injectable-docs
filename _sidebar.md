@@ -29,4 +29,4 @@
 
 - [Changelog](/#Change-logs)
 
-- [Credits] (/#Credits)
+- [Credits](/#Credits)

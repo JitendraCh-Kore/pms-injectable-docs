@@ -256,3 +256,10 @@ functionToSetProjectType() {
 ### v2.0.8 - 02/01/2020
 - Partner specific disclaimer added.
 - Various bug fixes.
+
+
+
+# Credits
+Designed & Developed by 
+[Jitendra Singh Chauhan](https://jitendra.info)
+

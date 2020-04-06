@@ -28,3 +28,5 @@
         - [React component](/#React-component)
 
 - [Changelog](/#Change-logs)
+
+- [Credits] (/#Credits)

@@ -36,12 +36,12 @@ It's an easy, convenient and effortless implementation. Pick My Solar Applicatio
 
 This script can render the entire PMS Injectable application to your website/app.
 
-> Script URL : https://codebase.pickmysolar.com/pms.js
+> Script URL : https://codebase.pickmysolar.com/v2/pms.js
 
 ### Usage
 
 ```html
-    <script src="https://codebase.pickmysolar.com/pms.js" pid="YOUR_PMS_TOKEN"></script>
+    <script src="https://codebase.pickmysolar.com/v2/pms.js" pid="YOUR_PMS_TOKEN"></script>
 ```
 
 ## Basic Code
@@ -51,7 +51,7 @@ To get started with PMS Injectable Application, you need to add the base code fi
 <html>
   <head>
     . . .
-    <script src="https://codebase.pickmysolar.com/pms.js" pid="YOUR_PMS_TOKEN"></script>
+    <script src="https://codebase.pickmysolar.com/v2/pms.js" pid="YOUR_PMS_TOKEN"></script>
     . . .
   </head>
   <body>

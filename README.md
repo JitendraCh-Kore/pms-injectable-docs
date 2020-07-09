@@ -283,6 +283,13 @@ To add GTM tracking using Google Analytics with injection, please follow the bel
 
 # Change logs
 
+### v2.1.1 - 07/09/2020
+- New feature for UTM Tracking
+- New feature for GTM Tracking
+- IE Fixes
+- Safari fixes
+
+
 ### v2.1.0 - 03/13/2020
 - New callback function added for project type selection. [See Docs](/#projectType)
 

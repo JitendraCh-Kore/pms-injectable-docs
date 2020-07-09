@@ -243,6 +243,44 @@ functionToSetProjectType() {
 <br/>
 
 
+# UTM Tracking
+To track UTM with injection, you need to attach UTM default params in the url where injection is initializing.
+Example URL - 
+```js
+https://example.com/?utm_source=dev&utm_medium=testing&utm_campaign=testing%201&utm_term=freee&utm_content=testing%20analytics%20update
+```
+> utm_source, utm_medium, utm_campaign, utm_term and utm_content are default params. 
+
+
+
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+
+# GTM Tracking
+To add GTM tracking using Google Analytics with injection, please follow the below document.
+
+> https://docs.google.com/document/d/1MwSQrQ-MnASRrb2F8Dac6HfBCWSipJWxE98ET29iMwY/edit?usp=sharing 
+
+
+
+
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+
 # Change logs
 
 ### v2.1.0 - 03/13/2020

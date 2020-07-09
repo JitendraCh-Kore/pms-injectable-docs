@@ -27,6 +27,10 @@
         - [Angular 2+ component](/#Angular-2-component)
         - [React component](/#React-component)
 
+- [UTM Tracking](/#UTM-Tracking)
+
+- [GTM Tracking](/#GTM-Tracking)
+
 - [Changelog](/#Change-logs)
 
 - [Credits](/#Credits)

@@ -155,7 +155,7 @@ This callback function can be used to set the project type on PMS Injectable App
 #### Function Example 
 ```js
     function functionToSetProjectType() {
-        return ['solar', 'battery'];
+        return ['solar', 'battery', 'heatPumps'];
     }
     // PMS callbacks initialization.
     window._PMS.cbFunctions = {
@@ -167,12 +167,13 @@ This callback function can be used to set the project type on PMS Injectable App
 #### Input Parameters
 
 ```js
-['solar', 'battery']
+['solar', 'battery', 'heatPumps']
 ```
 
 ##### Available keywords
   - 'solar'
   - 'battery'
+  - 'heatPumps'
   >Note: Single project type should also be sent in array format.
 
 
@@ -186,7 +187,7 @@ You need to attach your callback functions on window._PMS.cbFunctions wherever y
        ...
    }
    function functionToSetProjectType() {
-       return ['solar', 'battery'];
+       return ['solar', 'battery', 'heatPumps'];
    }
    // PMS callbacks initialization.
    window._PMS.cbFunctions = {
@@ -209,7 +210,7 @@ yourSignUpCatchFn(params) {
        ...
 }
 functionToSetProjectType() {
-       return ['solar', 'battery'];
+       return ['solar', 'battery', 'heatPumps'];
 }
 ```
 
@@ -226,7 +227,7 @@ yourSignUpCatchFn(params) {
        ...
 }
 functionToSetProjectType() {
-       return ['solar', 'battery'];
+       return ['solar', 'battery', 'heatPumps'];
 }
 ```
 

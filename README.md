@@ -1,4 +1,4 @@
-# Introduction
+# Introduction <>
 
 > Pick My Solar works with a plug and play JavaScript snippet. A standalone JavaScript snippet and an HTML markup tag `<pms-injectable>` will integrate your website with Pick My Solar marketplace application.
 
@@ -307,5 +307,5 @@ To add GTM tracking using Google Analytics with injection, please follow the bel
 
 # Credits
 Designed & Developed by 
-[Jitendra Singh Chauhan](https://jitendra.info)
+[Pickmysolar](https://pickmysolar.com)
 
